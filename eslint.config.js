@@ -4,6 +4,7 @@ import tseslint from "typescript-eslint";
 import pluginReact from "eslint-plugin-react";
 import pluginImport from "eslint-plugin-import";
 import pluginHooks from "eslint-plugin-react-hooks";
+import "eslint-import-resolver-typescript";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
