@@ -1,8 +1,11 @@
 {
   "name": "eslint-config-greenflash",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A opinionated best practice eslint config",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./eslint.config.js"
   },
