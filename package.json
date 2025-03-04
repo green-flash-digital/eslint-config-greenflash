@@ -10,7 +10,7 @@
     "eslint.config.js"
   ],
   "scripts": {
-    "release": "yarn npm publish"
+    "release": "npm publish"
   },
   "repository": {
     "type": "git",
