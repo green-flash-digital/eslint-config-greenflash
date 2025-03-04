@@ -1,0 +1,69 @@
+{
+  "name": "eslint-config-greenflash",
+  "version": "0.1.0",
+  "description": "A opinionated best practice eslint config",
+  "type": "module",
+  "exports": {
+    ".": "./eslint.config.js"
+  },
+  "files": [
+    "eslint.config.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/green-flash-digital/eslint-config-greenflash.git"
+  },
+  "author": "Drew DeCarme (drew@greenflash.digital)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/green-flash-digital/eslint-config-greenflash/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "linting",
+    "flat-config",
+    "javascript",
+    "typescript",
+    "react",
+    "eslint-plugin",
+    "typescript-eslint",
+    "eslint-rules",
+    "eslint-plugin-import",
+    "eslint-plugin-react",
+    "eslint-plugin-react-hooks",
+    "globals",
+    "code-style",
+    "coding-standards",
+    "static-analysis",
+    "configurable",
+    "code-quality",
+    "npm-package",
+    "eslint-shareable-config",
+    "best-practices",
+    "eslint-setup",
+    "code-consistency",
+    "developer-tools",
+    "frontend",
+    "fullstack",
+    "open-source",
+    "typescript-linting",
+    "react-linting",
+    "eslint-extends"
+  ],
+  "homepage": "https://github.com/green-flash-digital/eslint-config-greenflash#readme",
+  "packageManager": "yarn@4.7.0",
+  "dependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "globals": "^16.0.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0"
+  }
+}
