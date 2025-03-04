@@ -7,13 +7,14 @@
     "access": "public"
   },
   "exports": {
-    ".": "./eslint.config.js"
+    ".": "./dist/index.js"
   },
   "files": [
-    "eslint.config.js"
+    "dist"
   ],
   "scripts": {
-    "release": "npm publish"
+    "build": "yarn tsc --project ./tsconfig.build.json",
+    "release": "yarn changeset publish"
   },
   "repository": {
     "type": "git",
@@ -60,13 +61,18 @@
   "homepage": "https://github.com/green-flash-digital/eslint-config-greenflash#readme",
   "packageManager": "yarn@4.7.0",
   "dependencies": {
+    "@changesets/cli": "^2.28.1",
     "@eslint/js": "^9.21.0",
     "eslint": "^9.21.0",
+    "eslint-import-resolver-typescript": "^3.8.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.2.0",
     "globals": "^16.0.0",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.26.0"
+  },
+  "devDependencies": {
+    "ts-jolt": "^0.2.2"
   }
 }
