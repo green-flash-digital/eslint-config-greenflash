@@ -10,7 +10,7 @@
     "eslint.config.js"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "yarn npm publish"
   },
   "repository": {
     "type": "git",
