@@ -35,6 +35,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:01584fcbc4fe48b7e972b44474f2575fd745e02e99df875350fd6edb2a309d3a40b3c63ab012e3bf4975cda4626bb3610c1cf6557205ae254bb9140288bfe9a5#npm:7.37.4"],\
           ["eslint-plugin-react-hooks", "virtual:01584fcbc4fe48b7e972b44474f2575fd745e02e99df875350fd6edb2a309d3a40b3c63ab012e3bf4975cda4626bb3610c1cf6557205ae254bb9140288bfe9a5#npm:5.2.0"],\
           ["globals", "npm:16.0.0"],\
+          ["ts-jolt", "npm:0.2.2"],\
           ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"],\
           ["typescript-eslint", "virtual:01584fcbc4fe48b7e972b44474f2575fd745e02e99df875350fd6edb2a309d3a40b3c63ab012e3bf4975cda4626bb3610c1cf6557205ae254bb9140288bfe9a5#npm:8.26.0"]\
         ],\
@@ -1544,6 +1545,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react", "virtual:01584fcbc4fe48b7e972b44474f2575fd745e02e99df875350fd6edb2a309d3a40b3c63ab012e3bf4975cda4626bb3610c1cf6557205ae254bb9140288bfe9a5#npm:7.37.4"],\
           ["eslint-plugin-react-hooks", "virtual:01584fcbc4fe48b7e972b44474f2575fd745e02e99df875350fd6edb2a309d3a40b3c63ab012e3bf4975cda4626bb3610c1cf6557205ae254bb9140288bfe9a5#npm:5.2.0"],\
           ["globals", "npm:16.0.0"],\
+          ["ts-jolt", "npm:0.2.2"],\
           ["typescript", "patch:typescript@npm%3A5.8.2#optional!builtin<compat/typescript>::version=5.8.2&hash=5786d5"],\
           ["typescript-eslint", "virtual:01584fcbc4fe48b7e972b44474f2575fd745e02e99df875350fd6edb2a309d3a40b3c63ab012e3bf4975cda4626bb3610c1cf6557205ae254bb9140288bfe9a5#npm:8.26.0"]\
         ],\
@@ -3765,6 +3767,15 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/typescript",\
           "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["ts-jolt", [\
+      ["npm:0.2.2", {\
+        "packageLocation": "../../../.yarn/berry/cache/ts-jolt-npm-0.2.2-87636019dc-10c0.zip/node_modules/ts-jolt/",\
+        "packageDependencies": [\
+          ["ts-jolt", "npm:0.2.2"]\
         ],\
         "linkType": "HARD"\
       }]\

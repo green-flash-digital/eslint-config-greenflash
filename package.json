@@ -7,12 +7,13 @@
     "access": "public"
   },
   "exports": {
-    ".": "./eslint.config.js"
+    ".": "./dist/index.js"
   },
   "files": [
-    "eslint.config.js"
+    "dist"
   ],
   "scripts": {
+    "build": "yarn tsc --project ./tsconfig.build.json",
     "release": "yarn changeset publish"
   },
   "repository": {
@@ -70,5 +71,8 @@
     "globals": "^16.0.0",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.26.0"
+  },
+  "devDependencies": {
+    "ts-jolt": "^0.2.2"
   }
 }

@@ -5,9 +5,9 @@ import pluginReact from "eslint-plugin-react";
 import pluginImport from "eslint-plugin-import";
 import pluginHooks from "eslint-plugin-react-hooks";
 import "eslint-import-resolver-typescript";
+import { Linter } from "eslint";
 
-/** @type {import('eslint').Linter.Config[]} */
-export default [
+const config: Linter.Config[] = [
   // Globally ignore some directories
   {
     ignores: [
@@ -122,3 +122,5 @@ export default [
     },
   },
 ];
+
+export default config;

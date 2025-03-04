@@ -1205,6 +1205,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.37.4"
     eslint-plugin-react-hooks: "npm:^5.2.0"
     globals: "npm:^16.0.0"
+    ts-jolt: "npm:^0.2.2"
     typescript: "npm:^5.8.2"
     typescript-eslint: "npm:^8.26.0"
   languageName: unknown
@@ -3174,6 +3175,13 @@ __metadata:
   peerDependencies:
     typescript: ">=4.8.4"
   checksum: 10c0/23fd56a958b332cac00150a652e4c84730df30571bd2faa1ba6d7b511356d1a61656621492bb6c7f15dd6e18847a1408357a0e406671d358115369a17f5bfedd
+  languageName: node
+  linkType: hard
+
+"ts-jolt@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "ts-jolt@npm:0.2.2"
+  checksum: 10c0/7d236fe09b8adf276f22835a28114ad066e0d10867a0250f9195c25d77fd06f61d0691a9d38894d707b0678f1d60917b9ec358e4c53ce437cb6c3f19dfdc7d18
   languageName: node
   linkType: hard
 
