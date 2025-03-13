@@ -3,7 +3,6 @@ import { baseConfig } from "./_shared.js";
 
 const config: Linter.Config[] = [
   ...baseConfig,
-  { ignores: ["eslint.config.js"] },
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
     settings: {
@@ -13,7 +12,7 @@ const config: Linter.Config[] = [
       "import/resolver": {
         typescript: {
           // Use the TypeScript configuration file
-          project: "./tsconfig.json",
+          project: "packages/*/tsconfig.json",
           alwaysTryTypes: true,
         },
         node: {

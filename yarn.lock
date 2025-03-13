@@ -327,6 +327,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@gfdigital/eslint-config@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@gfdigital/eslint-config@workspace:."
+  dependencies:
+    "@changesets/cli": "npm:^2.28.1"
+    "@eslint/js": "npm:^9.21.0"
+    "@gfdigital/tsconfig": "npm:0.2.0"
+    eslint: "npm:^9.21.0"
+    eslint-import-resolver-typescript: "npm:^3.8.3"
+    eslint-plugin-import: "npm:^2.31.0"
+    eslint-plugin-react: "npm:^7.37.4"
+    eslint-plugin-react-hooks: "npm:^5.2.0"
+    globals: "npm:^16.0.0"
+    typescript: "npm:^5.8.2"
+    typescript-eslint: "npm:^8.26.0"
+  languageName: unknown
+  linkType: soft
+
+"@gfdigital/tsconfig@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@gfdigital/tsconfig@npm:0.2.0"
+  checksum: 10c0/a05866b9011e7acc6ccf2fd33c9903aa5b3e4e967de6466ed7e892b3dda93ec1ad9f45ab6dca2a01bad6caf7404ea0c3df14a26e33e9bf5b871786170ab191c0
+  languageName: node
+  linkType: hard
+
 "@humanfs/core@npm:^0.19.1":
   version: 0.19.1
   resolution: "@humanfs/core@npm:0.19.1"
@@ -1192,24 +1217,6 @@ __metadata:
   checksum: 10c0/9497d4dd307d845bd7f75180d8188bb17ea8c151c1edbf6b6717c100e104d629dc2dfb687686181b0f4b7d732c7dfdc4d5e7a8ff72de1b0ca283a75bbb3a9cd9
   languageName: node
   linkType: hard
-
-"eslint-config-greenflash@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "eslint-config-greenflash@workspace:."
-  dependencies:
-    "@changesets/cli": "npm:^2.28.1"
-    "@eslint/js": "npm:^9.21.0"
-    eslint: "npm:^9.21.0"
-    eslint-import-resolver-typescript: "npm:^3.8.3"
-    eslint-plugin-import: "npm:^2.31.0"
-    eslint-plugin-react: "npm:^7.37.4"
-    eslint-plugin-react-hooks: "npm:^5.2.0"
-    globals: "npm:^16.0.0"
-    ts-jolt: "npm:^0.2.2"
-    typescript: "npm:^5.8.2"
-    typescript-eslint: "npm:^8.26.0"
-  languageName: unknown
-  linkType: soft
 
 "eslint-import-resolver-node@npm:^0.3.9":
   version: 0.3.9
@@ -3175,13 +3182,6 @@ __metadata:
   peerDependencies:
     typescript: ">=4.8.4"
   checksum: 10c0/23fd56a958b332cac00150a652e4c84730df30571bd2faa1ba6d7b511356d1a61656621492bb6c7f15dd6e18847a1408357a0e406671d358115369a17f5bfedd
-  languageName: node
-  linkType: hard
-
-"ts-jolt@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "ts-jolt@npm:0.2.2"
-  checksum: 10c0/7d236fe09b8adf276f22835a28114ad066e0d10867a0250f9195c25d77fd06f61d0691a9d38894d707b0678f1d60917b9ec358e4c53ce437cb6c3f19dfdc7d18
   languageName: node
   linkType: hard
 

@@ -1,13 +1,14 @@
 {
-  "name": "eslint-config-greenflash",
+  "name": "@gfdigital/eslint-config",
   "version": "0.2.0",
-  "description": "A opinionated best practice eslint config",
+  "description": "A collection of opinionated best practice eslint configs",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./monorepo": "./dist/index.js"
   },
   "files": [
     "dist"
@@ -61,7 +62,6 @@
   "homepage": "https://github.com/green-flash-digital/eslint-config-greenflash#readme",
   "packageManager": "yarn@4.7.0",
   "dependencies": {
-    "@changesets/cli": "^2.28.1",
     "@eslint/js": "^9.21.0",
     "eslint": "^9.21.0",
     "eslint-import-resolver-typescript": "^3.8.3",
@@ -73,6 +73,7 @@
     "typescript-eslint": "^8.26.0"
   },
   "devDependencies": {
-    "ts-jolt": "^0.2.2"
+    "@changesets/cli": "^2.28.1",
+    "@gfdigital/tsconfig": "0.2.0"
   }
 }
