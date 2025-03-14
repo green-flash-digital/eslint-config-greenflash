@@ -333,9 +333,8 @@ __metadata:
   dependencies:
     "@changesets/cli": "npm:^2.28.1"
     "@eslint/js": "npm:^9.21.0"
-    "@gfdigital/tsconfig": "npm:0.2.0"
     eslint: "npm:^9.21.0"
-    eslint-import-resolver-typescript: "npm:^3.8.3"
+    eslint-import-resolver-typescript: "npm:^3.8.7"
     eslint-plugin-import: "npm:^2.31.0"
     eslint-plugin-react: "npm:^7.37.4"
     eslint-plugin-react-hooks: "npm:^5.2.0"
@@ -344,13 +343,6 @@ __metadata:
     typescript-eslint: "npm:^8.26.0"
   languageName: unknown
   linkType: soft
-
-"@gfdigital/tsconfig@npm:0.2.0":
-  version: 0.2.0
-  resolution: "@gfdigital/tsconfig@npm:0.2.0"
-  checksum: 10c0/a05866b9011e7acc6ccf2fd33c9903aa5b3e4e967de6466ed7e892b3dda93ec1ad9f45ab6dca2a01bad6caf7404ea0c3df14a26e33e9bf5b871786170ab191c0
-  languageName: node
-  linkType: hard
 
 "@humanfs/core@npm:^0.19.1":
   version: 0.19.1
@@ -1229,9 +1221,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:^3.8.3":
-  version: 3.8.3
-  resolution: "eslint-import-resolver-typescript@npm:3.8.3"
+"eslint-import-resolver-typescript@npm:^3.8.7":
+  version: 3.8.7
+  resolution: "eslint-import-resolver-typescript@npm:3.8.7"
   dependencies:
     "@nolyfill/is-core-module": "npm:1.0.39"
     debug: "npm:^4.3.7"
@@ -1249,7 +1241,7 @@ __metadata:
       optional: true
     eslint-plugin-import-x:
       optional: true
-  checksum: 10c0/886ceeab4cad14958d7c7d3432ead2486374616c8ada7925ab96e55f919f2dbbbdbe7c3081d7d238231e84699849e82930417a66e05638bcc8202e1263edddeb
+  checksum: 10c0/8b4a3d5b4bb6f14cadc6436c1b93852a52c6d24b2604647ef1f3a18de7c89cbc568c1f0d15dd1811c1300e9204818b1cda86bf51c94ef2396aa03568f2434157
   languageName: node
   linkType: hard
 
