@@ -1,5 +1,11 @@
 # @gfdigital/eslint-config
 
+## 0.4.0
+
+### Minor Changes
+
+- 74f256a: Reconfigures index to follow flat config best practices; adds monorepo support via config argument
+
 ## 0.3.0
 
 ### Minor Changes
