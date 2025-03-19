@@ -4,14 +4,14 @@ import tseslint from "typescript-eslint";
 import pluginReact from "eslint-plugin-react";
 import pluginImport from "eslint-plugin-import";
 import pluginHooks from "eslint-plugin-react-hooks";
-import { Linter } from "eslint";
+import type { Linter } from "eslint";
 
 export const greenFlashBase: Linter.Config[] = [
   { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"] },
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
-  pluginReact.configs.flat.recommended,
+  pluginReact.configs.flat["jsx-runtime"],
   pluginImport.flatConfigs.recommended,
   // Globally ignore some directories
   {

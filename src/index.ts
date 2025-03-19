@@ -1,4 +1,5 @@
-import { Linter } from "eslint";
+import type { Linter } from "eslint";
+
 import { greenFlashBase } from "./_base.js";
 
 type GreenFlashTSOptions = {
@@ -13,7 +14,7 @@ type GreenFlashTSOptions = {
 
 const projectMap: { [key in GreenFlashTSOptions["type"]]: string } = {
   monorepo: "packages/*/tsconfig.json",
-  basic: "./tsconfig.json",
+  basic: "tsconfig.json",
 };
 
 /**
