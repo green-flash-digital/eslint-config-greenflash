@@ -1,5 +1,11 @@
 # @gfdigital/eslint-config
 
+## 0.4.1
+
+### Patch Changes
+
+- e5a0898: Replaces the recommended configuration with the jsx-runtime configuration for the react plugin
+
 ## 0.4.0
 
 ### Minor Changes
