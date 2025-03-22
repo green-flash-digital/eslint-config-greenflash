@@ -44,6 +44,7 @@ export const greenFlashBase: Linter.Config[] = [
     rules: {
       ...pluginHooks.configs.recommended.rules,
       "react/prop-types": 0,
+      "react/react-in-jsx-scope": "off",
       "@typescript-eslint/consistent-type-imports": [
         "warn",
         {
