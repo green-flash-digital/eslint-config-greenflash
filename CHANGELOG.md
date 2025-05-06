@@ -1,5 +1,11 @@
 # @gfdigital/eslint-config
 
+## 0.4.3
+
+### Patch Changes
+
+- cb97307: Fixes issue where react version wasn't being resolved
+
 ## 0.4.2
 
 ### Patch Changes
