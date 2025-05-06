@@ -1,5 +1,11 @@
 # @gfdigital/eslint-config
 
+## 0.4.2
+
+### Patch Changes
+
+- 8a75ebc: Explicitly disable react-in-jsx-scope
+
 ## 0.4.1
 
 ### Patch Changes
