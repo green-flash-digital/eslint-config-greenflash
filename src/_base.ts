@@ -11,7 +11,14 @@ export const greenFlashBase: Linter.Config[] = [
   { languageOptions: { globals: { ...globals.browser, ...globals.node } } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
-  pluginReact.configs.flat["jsx-runtime"],
+  {
+    ...pluginReact.configs.flat["jsx-runtime"],
+    settings: {
+      react: {
+        version: "detect", // or specify a version manually like '18.2'
+      },
+    },
+  },
   pluginImport.flatConfigs.recommended,
   // Globally ignore some directories
   {
